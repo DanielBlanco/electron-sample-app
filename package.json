@@ -1,0 +1,25 @@
+{
+  "name": "electron-sample-app",
+  "version": "1.0.0",
+  "description": "Just playing with electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielBlanco/electron-sample-app.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "dblancorojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielBlanco/electron-sample-app/issues"
+  },
+  "homepage": "https://github.com/DanielBlanco/electron-sample-app#readme",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  }
+}
