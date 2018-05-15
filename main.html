@@ -23,6 +23,13 @@
 			ipcRenderer.on("item:clear", (e) => {
 				ul.innerHTML = "";
 			});
+
+			// Remove item.
+			let removeItem = (e) => {
+				e.target.remove();
+			};
+			ul.addEventListener("dblclick", removeItem);
+
 		</script>
 
 	</body>
