@@ -2,6 +2,7 @@
 bower_components
 node_modules
 dist
+release-builds
 
 #files
 *.tgz
